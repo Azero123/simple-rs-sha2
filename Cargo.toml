@@ -1,0 +1,19 @@
+[package]
+name = "simple-rs-sha2"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.89"
+description = "simple rust sha2 (224, 256, 384, 512 bit) implementations"
+license = "MIT"
+repository = "https://github.com/Azero123/simple-rs-sha2"
+homepage = "https://github.com/Azero123/simple-rs-sha2#readme"
+readme = "readme.md"
+authors = ["Azero123"]
+keywords = ["sha2", "sha256", "sha512", "sha", "hash"]
+categories = ["cryptography", "algorithms"]
+
+[dependencies]
+simple-rs-sha2-224 = { version = "1", path = "../simple-rs-sha2-224" }
+simple-rs-sha2-256 = { version = "1", path = "../simple-rs-sha2-256" }
+simple-rs-sha2-384 = { version = "1", path = "../simple-rs-sha2-384" }
+simple-rs-sha2-512 = { version = "1", path = "../simple-rs-sha2-512" }
